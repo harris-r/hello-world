@@ -10,7 +10,7 @@ import Foundation
 
 public class Main {
     public func currentDate() -> Date{
-        return calculateCurrentDate
+        return calculateCurrentDate()
     }
     
     private func calculateCurrentDate() -> Date {
